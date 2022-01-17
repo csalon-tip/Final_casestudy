@@ -1,0 +1,7 @@
+---
+- name: OSPF
+  import_playbook: OSPF.yaml
+- name:  ACL
+  import_playbook: ACL.yaml
+- name: SNMP
+  import_playbook: SNMP.yaml

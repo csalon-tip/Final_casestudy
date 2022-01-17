@@ -1,0 +1,7 @@
+
+- name: Testing OSPF
+  import_playbook: OSPF.yaml
+- name: Testing ACL
+  import_playbook: ACL.yaml
+- name: Testing SNMP
+  import_playbook: SNMP.yaml
